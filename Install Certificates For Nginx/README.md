@@ -8,13 +8,43 @@ OS: Ubuntu
 # 配置解析
 1. 在Cloudflare 上 将域名解析到目标服务器
 
+# 配置防火墙
+```
+1. 检查防火墙的状态
+--确保80端口和443端口都是打开的
+> sudo ufw status
+
+2. 添加80,443端口
+> sudo ufw allow 80
+> sudo ufw allow 443
+```
+
 # Install Nginx
 ```1. 安装Nginx
 > apt install Nginx
 
 -- 2.检查Nginx 状态
 > service nginx status
+```
 
+配置nginx 监听80端口
+
+```
+> cat /etc/nginx/nginx.conf
+> sudo nano /etc/nginx/nginx.conf
+```
+
+添加如下配置到http节点下：
+```
+    server {
+        listen 80;
+        location /.well-known/ {
+               root /var/www/html;
+            }
+        location / {
+                rewrite ^(.*)$ https://$host$1 permanent;
+            }
+    }
 ```
 
 # 使用Acme签发证书
