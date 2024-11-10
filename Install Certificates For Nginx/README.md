@@ -71,8 +71,15 @@ OS: Ubuntu
 --chmod +777 /var/www/html
 --chmod +777 /var/www/html/.well-known/acme-challenge/
 
---3. 安装证书到Nginx
-> ./acme.sh --installcert -d yourdomain.com --key-file /path/to/keyfile/in/apache/key.pem --fullchain-file /path/to/fullchain/certfile/apache/fullchain.pem --debug
-
-
 ```
+
+# 安装证书到Nginx
+```
+> ./acme.sh --installcert -d yourdomain.com --key-file /path/to/keyfile/in/apache/key.pem --fullchain-file /path/to/fullchain/certfile/apache/fullchain.pem --debug
+```
+
+# 配置自动更新证书
+```
+> ./acme.sh --upgrade --auto-upgrade
+```
+
