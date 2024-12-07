@@ -4,10 +4,11 @@
 1. 域名
 2. VPS
 
+
+
 # 签发域名的SSL证书
 -> Install Certificates For Nginx -> README.me
 
-# 安装v2ray
 
 # 将v2ray通过Nginx来伪装
 
