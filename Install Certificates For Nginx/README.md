@@ -56,9 +56,9 @@ OS: Ubuntu
 --1. 安装acme
 > cd ~
 > curl https://get.acme.sh | sh -s email=my@example.com
-> cd ./acme.sh
+> cd ~/.acme.sh
 --显示Acme的帮助信息
-> ./acme.sh -h
+> acme.sh -h
 
 --2. 签发证书
 > ./acme.sh --issue  -d yourdomain.com  -w /var/www/html  --debug
