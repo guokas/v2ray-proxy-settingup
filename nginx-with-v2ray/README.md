@@ -1,3 +1,5 @@
+引用自：不良林youtube https://www.youtube.com/watch?v=s90feRmdr9A
+
 # 节点搭建
 ```
 #更新软件源
