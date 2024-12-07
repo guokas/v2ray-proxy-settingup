@@ -1,24 +1,13 @@
-# v2ray-proxy-settingup
-
 # Prerequisites
 1. 域名
 2. VPS
 
-
-
-# 签发域名的SSL证书
--> Install Certificates For Nginx -> README.me
-
+# 步骤
+1. 安装x-ui(内集成v2ray) [Installation Guide](install%20x%20ui/README.md)
+2. 签发域名的SSL证书 [Installation Guide](Install%20Certificates%20For%20Nginx/README.md)
+3. 安装
 
 # 将v2ray通过Nginx来伪装
-
-# 安装 x-ui
-## 命令
-> x-ui
-## 访问
-启动x-ui,设置根目录，端口，然后通过ip:端口访问，例如：localhost:8080/xui
-
-
 
 # 解决github代理问题
 
