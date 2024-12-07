@@ -8,7 +8,7 @@
 3. 利用nginx伪装v2ray  [Installation Guide](nginx-with-v2ray/README.md)
 
 
-# 解决github代理问题
+# 设置v2ray代理github
 ```
 # 设置代理，http 和 https 都加上代理，代理到 http://127.0.0.1:1087 这个 vpn 本地 IP
 git config --global http.proxy http://127.0.0.1:10809 
