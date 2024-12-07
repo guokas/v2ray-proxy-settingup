@@ -11,6 +11,14 @@ sysctl -p
 bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 ```
 
+## 管理x-ui
+```
+# 启动x-ui
+x-ui
+
+# 启动x-ui,设置根目录，端口，然后通过ip:端口访问，例如：localhost:8080/xui
+```
+
 # Issues:
 if encounter error 
 ```
