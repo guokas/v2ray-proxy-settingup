@@ -5,9 +5,7 @@
 # 步骤
 1. 安装x-ui(内集成v2ray) [Installation Guide](install%20x%20ui/README.md)
 2. 签发域名的SSL证书 [Installation Guide](Install%20Certificates%20For%20Nginx/README.md)
-3. 安装
-
-# 将v2ray通过Nginx来伪装
+3. 利用Nginx伪装v2ray
 
 # 解决github代理问题
 
