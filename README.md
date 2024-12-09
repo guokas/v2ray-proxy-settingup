@@ -10,6 +10,7 @@
 # 设置WSL使用V2ray的代理
 ```
 ```
+https://stackoverflow.com/questions/78354196/how-to-use-v2rayn-in-windows-wsl2-ubuntu
 
 # 设置v2ray代理github
 ```
