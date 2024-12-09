@@ -10,9 +10,9 @@
 
 # 设置v2ray代理github
 ```
-# 设置代理，http 和 https 都加上代理，代理到 http://127.0.0.1:1087 这个 vpn 本地 IP
-git config --global http.proxy http://127.0.0.1:10809 
-git config --global https.proxy http://127.0.0.1:10809
+# 设置代理，http 和 https 都加上代理，代理到 http://127.0.0.1:10808 这个 vpn 本地 IP
+git config --global http.proxy http://127.0.0.1:10808
+git config --global https.proxy http://127.0.0.1:10808
 
 # 取消代理
 git config --global --unset http.proxy
