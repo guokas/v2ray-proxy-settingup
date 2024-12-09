@@ -7,10 +7,15 @@
 2. 签发域名的SSL证书 [Installation Guide](Install%20Certificates%20For%20Nginx/README.md)
 3. 利用nginx伪装v2ray  [Installation Guide](nginx-with-v2ray/README.md)
 
-# 设置WSL使用V2ray的代理
+# 设置v2ray代理nodejs npm
 ```
+# npm config set proxy
+npm config set proxy http://localhost:10808
+npm config set https-proxy http://localhost:10808
+
+# npm list proxy
+npm config list
 ```
-https://stackoverflow.com/questions/78354196/how-to-use-v2rayn-in-windows-wsl2-ubuntu
 
 # 设置v2ray代理github
 ```
