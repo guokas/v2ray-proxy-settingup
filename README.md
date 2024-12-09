@@ -7,6 +7,9 @@
 2. 签发域名的SSL证书 [Installation Guide](Install%20Certificates%20For%20Nginx/README.md)
 3. 利用nginx伪装v2ray  [Installation Guide](nginx-with-v2ray/README.md)
 
+# 设置WSL使用V2ray的代理
+```
+```
 
 # 设置v2ray代理github
 ```
